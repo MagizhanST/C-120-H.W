@@ -30,7 +30,7 @@ function updateTheme(newTheme) {
 }
 
 if (!storedTheme) {
-  storedTheme = 'light-theme';
+  storedTheme = 'dark-theme';
   updateTheme(storedTheme);
 } else {
   body.classList.add(storedTheme);
