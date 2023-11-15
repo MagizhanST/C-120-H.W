@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.light-theme {
+  background-color: #e6e6e6;
+  color: #333;
+  border-color: #333;
+}
+
+.light-theme-1 {
+  background-color: #d2d2d2;
+}
+
+.light-theme-2 {
+  background-color: #c8c8c8;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #ccc;
+  border-color: #ccc;
+}
+
+.dark-theme-1 {
+  background-color: #3d3d3d;
+}
+
+.dark-theme-2 {
+  background-color: #474747;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: sticky;
+  top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 80px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.circle-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.circle-icon:hover {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grid-item {
+  text-align: justify;
+  padding: 20px;
+  border-radius: 10px;
+  width: 33.33%;
+  box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+.item-title {
+  position: relative;
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.text-area {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 0 10px;
+  border-right: 1px solid;
+  position: relative;
+}
+
+.column:last-child {
+  border-right: none;
+}
+
+.column-title {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  text-align: center;
+}
